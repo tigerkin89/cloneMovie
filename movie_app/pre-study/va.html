@@ -1,0 +1,22 @@
+<!-- nomade 강의에서 왜 React가 나왔는지 잘 설명을 해준다.
+nomade 비디오 강의를 잘 정리해 놨다. 
+https://gongbbu.tistory.com/65 
+https://gongbbu.tistory.com/66
+-->
+<!DOCTYPE html>
+<html>
+<body>
+    <span>Total clicks : 0</span>
+    <button id="btn">Click me</button>
+</body>
+<script>
+    let counter = 0;
+    const button = document.getElementById("btn");
+    const span = document.querySelector("span");
+    function handleClick() {
+        counter = counter + 1;
+        span.innerText = `Total clicks : ${counter}`;
+    }
+    button.addEventListener("click", handleClick);
+</script>
+</html>

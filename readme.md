@@ -15,6 +15,13 @@
   - git init
 - github.com 저장소 만들기
   - 로그인 후 : Repositories --> New --> Create a new repository 작성
+  - cli로 하는 것은 힘드네... VS Code에서 Git 툴을 이용하여 진행함 T.T
+
+## nomade 강의
+
+- JSX
+- babel
+
 
 
 
