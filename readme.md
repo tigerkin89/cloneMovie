@@ -63,6 +63,8 @@ To https://github.com/tigerkin89/cloneMovie.git
 ``````````
 
 - 기타 명령어
+  
   - git branch -av
   - git checkout filename ; local 파일을 remote 파일로 원복
+  - git pull ; 로컬과 리모트를 상태를 sync한다.
 
